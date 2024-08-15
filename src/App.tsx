@@ -1,4 +1,5 @@
 import { Header } from "./components/header";
+import { Text } from "./components/Text";
 import { TitleArtigo } from "./components/titleArtigo";
 
 export function App() {
@@ -33,31 +34,31 @@ export function App() {
             <div className="bg-[url('../public/image03.png')] w-[288px] h-[200px] bg-cover bg-center px-3 pb-3 pt-9 flex items-end">
               <div className="space-y-2">
                 <TitleArtigo>Internet</TitleArtigo>
-                <p className="font-extrabold text-sm truncate w-[264px]">
+                <Text>
                   Tecnologia 6G chega às metrópoles
                   <br /> brasileiras, prometendo revolucionar
                   <br /> a forma como vivemos e nos comunicamos.
-                </p>
+                </Text>
               </div>
             </div>
             <div className="bg-[url('../public/image04.png')] w-[288px] h-[200px] bg-cover bg-center px-3 pb-3 pt-9 flex items-end">
               <div className="space-y-2">
                 <TitleArtigo>Vestíveis</TitleArtigo>
-                <p className="font-extrabold text-sm truncate w-[264px]">
+                <Text>
                   Empresa lança relógio inteligente
                   <br /> capaz de monitorar a saúde mental,
                   <br /> oferecendo insights valiosos para o bem-estar pessoal.
-                </p>
+                </Text>
               </div>
             </div>
             <div className="bg-[url('../public/image05.png')] w-[288px] h-[200px] bg-cover bg-center px-3 pb-3 pt-9 flex items-end">
               <div className="space-y-2">
                 <TitleArtigo>Realidade Virtua</TitleArtigo>
-                <p className="font-extrabold text-sm w-[264px] h-[60px] truncate">
+                <Text>
                   Escolas adotam a tecnologia VR para <br />
                   proporcionar experiências imersivas,
                   <br /> transformando a aprendizagem tradicional.
-                </p>
+                </Text>
               </div>
             </div>
           </div>
