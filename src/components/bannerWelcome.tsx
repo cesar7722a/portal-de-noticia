@@ -1,11 +1,12 @@
+import { Separator } from "./separator";
 import { Text } from "./Text";
 import { TitleArtigo } from "./titleArtigo";
 
 export function BannerWelcome() {
   return (
-    <div className="px-8 py-5 flex flex-col gap-20 items-center">
+    <div className="px-10 py-5 space-y-16">
       <div className="flex gap-4">
-        <div className="bg-[url('../public/image01.png')] bg-cover bg-center w-[608px] h-[416px] flex items-end">
+        <div className="bg-[url('../public/image01.png')] bg-cover bg-center w-[728px] h-[416px] flex items-end">
           <div className="px-6 pb-6 pt-[72px] flex flex-col gap-2">
             <TitleArtigo>Robótica</TitleArtigo>
             <p className="font-extrabold text-2xl truncate">
@@ -18,7 +19,7 @@ export function BannerWelcome() {
         <div className="grid grid-cols-2 gap-4">
           <div
             className="bg-[url('../public/image02.png')] w-[288px] h-[200px] flex items-end 
-      bg-cover bg-center px-3 pb-3 pt-9"
+              bg-cover bg-center px-3 pb-3 pt-9"
           >
             <div className="space-y-2">
               <TitleArtigo>Hologramas</TitleArtigo>
@@ -60,6 +61,7 @@ export function BannerWelcome() {
           </div>
         </div>
       </div>
+      <Separator />
     </div>
   );
 }
