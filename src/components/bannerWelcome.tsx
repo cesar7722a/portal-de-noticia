@@ -1,10 +1,9 @@
-import { Separator } from "./separator";
 import { Text } from "./Text";
 import { TitleArtigo } from "./titleArtigo";
 
 export function BannerWelcome() {
   return (
-    <div className="px-10 py-5 space-y-16">
+    <div className="py-5">
       <div className="flex gap-4">
         <div className="bg-[url('../public/image01.png')] bg-cover bg-center w-[728px] h-[416px] flex items-end">
           <div className="px-6 pb-6 pt-[72px] flex flex-col gap-2">
@@ -61,7 +60,6 @@ export function BannerWelcome() {
           </div>
         </div>
       </div>
-      <Separator />
     </div>
   );
 }
