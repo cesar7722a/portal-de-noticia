@@ -4,7 +4,7 @@ import { TitleArtigo } from "./titleArtigo";
 export function BannerWelcome() {
   return (
     <div className="py-5">
-      <div className="flex gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="bg-[url('../public/image01.png')] bg-cover bg-center w-[728px] h-[416px] flex items-end">
           <div className="px-6 pb-6 pt-[72px] flex flex-col gap-2">
             <TitleArtigo>Robótica</TitleArtigo>
@@ -15,7 +15,7 @@ export function BannerWelcome() {
             </p>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div
             className="bg-[url('../public/image02.png')] w-[288px] h-[200px] flex items-end 
               bg-cover bg-center px-3 pb-3 pt-9"
