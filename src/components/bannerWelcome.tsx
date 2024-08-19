@@ -5,13 +5,17 @@ export function BannerWelcome() {
   return (
     <div className="py-5">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="bg-[url('../public/image01.png')] bg-cover bg-center w-[728px] h-[416px] flex items-end">
-          <div className="px-6 pb-6 pt-[72px] flex flex-col gap-2">
+        <div className="bg-[url('../public/image01.png')] bg-cover bg-center md:w-[728px] h-[416px] flex items-end rounded md:rounded-none">
+          <div className="md:px-6 md:pb-6 md:pt-[72px] px-4 pt-8 pb-4 flex flex-col gap-2">
             <TitleArtigo>Robótica</TitleArtigo>
-            <p className="font-extrabold text-2xl truncate">
-              Robôs domésticos começam a ser adotados
-              <br /> para tarefas diárias, prometendo mais
-              <br /> conforto e eficiência nas residências.
+            <p className="font-extrabold text-2xl truncate w-[398px] md:w-full">
+              Robôs domésticos
+              <br className="flex md:hidden" /> começam a ser
+              <br className="flex md:hidden" /> adotados
+              <br className="hidden md:flex" /> para tarefas diárias, prometendo
+              mais
+              <br className="hidden md:flex" /> conforto e eficiência nas
+              residências.
             </p>
           </div>
         </div>

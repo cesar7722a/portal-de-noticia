@@ -16,7 +16,7 @@ export function App() {
   return (
     <div className="pb-8">
       <Header />
-      <main className="px-8 space-y-20">
+      <main className="md:px-8 md:space-y-20 p-4">
         <BannerWelcome />
         <BannerMoreWeek />
         <div className="flex gap-8 justify-center">
