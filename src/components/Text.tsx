@@ -6,6 +6,8 @@ interface TextProps {
 
 export function Text({ children }: TextProps) {
   return (
-    <p className="font-extrabold text-sm truncate w-[264px]">{children}</p>
+    <p className="font-extrabold text-sm truncate md:w-[264px] w-full">
+      {children}
+    </p>
   );
 }
