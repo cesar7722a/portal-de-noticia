@@ -16,8 +16,8 @@ export function BannerMoreWeek() {
           </button>
         </div>
       </div>
-      <div className="flex gap-4">
-        <div className="w-[292px] space-y-2">
+      <div className="flex gap-4 flex-col md:flex-row">
+        <div className="md:w-[292px] space-y-2 rounded md:rounded-none">
           <div className="bg-[url('../public/image06.png')] bg-center bg-cover h-40"></div>
           <Text>
             Protótipo de veículo voador é<br /> apresentado, marcando o início
@@ -26,7 +26,7 @@ export function BannerMoreWeek() {
             era dos transportes aéreos pessoais.
           </Text>
         </div>
-        <div className="w-[392px] space-y-2">
+        <div className="md:w-[392px] space-y-2">
           <div className="bg-[url('../public/image07.png')] bg-center bg-cover h-40"></div>
           <Text>
             Plataforma de videoconferência
@@ -35,7 +35,7 @@ export function BannerMoreWeek() {
             envolventes.
           </Text>
         </div>
-        <div className="w-[392px] space-y-2">
+        <div className="md:w-[392px] space-y-2">
           <div className="bg-[url('../public/image08.png')] bg-center bg-cover h-40"></div>
           <Text>
             Nova geração de consoles de
@@ -44,7 +44,7 @@ export function BannerMoreWeek() {
             envolventes.
           </Text>
         </div>
-        <div className="w-[392px] space-y-2">
+        <div className="md:w-[392px] space-y-2">
           <div className="bg-[url('../public/image09.png')] bg-center bg-cover h-40"></div>
           <Text>
             Projeto busca oferecer internet

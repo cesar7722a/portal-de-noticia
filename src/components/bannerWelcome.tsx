@@ -47,7 +47,7 @@ export function BannerWelcome() {
               </Text>
             </div>
           </div>
-          <div className="bg-[url('../public/image04.png')] md:w-[288px] h-[200px] bg-cover bg-center px-3 pb-3 pt-9 flex items-end">
+          <div className="bg-[url('../public/image04.png')] md:w-[288px] h-[200px] bg-cover bg-center px-3 pb-3 pt-9 flex items-end rounded md:rounded-none">
             <div className="space-y-2">
               <TitleArtigo>Vestíveis</TitleArtigo>
               <Text>
@@ -57,7 +57,7 @@ export function BannerWelcome() {
               </Text>
             </div>
           </div>
-          <div className="bg-[url('../public/image05.png')] md:w-[288px] h-[200px] bg-cover bg-center px-3 pb-3 pt-9 flex items-end">
+          <div className="bg-[url('../public/image05.png')] md:w-[288px] h-[200px] bg-cover bg-center px-3 pb-3 pt-9 flex items-end rounded md:rounded-none">
             <div className="space-y-2">
               <TitleArtigo>Realidade Virtua</TitleArtigo>
               <Text>
