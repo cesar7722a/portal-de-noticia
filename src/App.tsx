@@ -19,7 +19,7 @@ export function App() {
       <main className="md:px-8 md:space-y-20 p-4 space-y-8">
         <BannerWelcome />
         <BannerMoreWeek />
-        <div className="flex gap-8 justify-center">
+        <div className="flex flex-col md:flex-row gap-8 justify-center">
           <BannerMoreWeekLeft />
           <div className="space-y-8">
             <figure className="">
