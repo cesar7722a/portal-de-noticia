@@ -47,10 +47,10 @@ export function App() {
                   </figure>
                   <div className="space-y-2">
                     <TitleArtigo>Software</TitleArtigo>
-                    <p className="font-black text-sm truncate w-[488px]">
-                      Aplicativo de monitoramento ambiental ganha
-                      <br /> destaque, incentivando práticas ecológicas e
-                      promovendo a conscientização.
+                    <p className="font-black text-sm w-[488px] line-clamp-2">
+                      Aplicativo de monitoramento ambiental ganha destaque,
+                      incentivando práticas ecológicas e promovendo a
+                      conscientização.
                     </p>
                   </div>
                 </div>
@@ -61,10 +61,10 @@ export function App() {
                   </figure>
                   <div className="space-y-2">
                     <TitleArtigo>Software</TitleArtigo>
-                    <p className="font-black text-sm truncate w-[488px]">
-                      Aplicativo de monitoramento ambiental ganha
-                      <br /> destaque, incentivando práticas ecológicas e
-                      promovendo a conscientização.
+                    <p className="font-black text-sm w-[488px] line-clamp-2">
+                      Aplicativo de monitoramento ambiental ganha destaque,
+                      incentivando práticas ecológicas e promovendo a
+                      conscientização.
                     </p>
                   </div>
                 </div>
@@ -75,10 +75,10 @@ export function App() {
                   </figure>
                   <div className="space-y-2">
                     <TitleArtigo>Software</TitleArtigo>
-                    <p className="font-black text-sm truncate w-[488px]">
-                      Aplicativo de monitoramento ambiental ganha
-                      <br /> destaque, incentivando práticas ecológicas e
-                      promovendo a conscientização.
+                    <p className="font-black text-sm w-[488px] line-clamp-2">
+                      Aplicativo de monitoramento ambiental ganha destaque,
+                      incentivando práticas ecológicas e promovendo a
+                      conscientização.
                     </p>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ export function App() {
                   </figure>
                   <div className="space-y-2">
                     <TitleArtigo>Software</TitleArtigo>
-                    <p className="font-black text-sm truncate w-[488px]">
+                    <p className="font-black text-sm w-[488px] line-clamp-2">
                       Aplicativo de monitoramento ambiental ganha
                       <br /> destaque, incentivando práticas ecológicas e
                       promovendo a conscientização.
@@ -103,7 +103,7 @@ export function App() {
                   </figure>
                   <div className="space-y-2">
                     <TitleArtigo>Software</TitleArtigo>
-                    <p className="font-black text-sm truncate w-[488px]">
+                    <p className="font-black text-sm line-clamp-2 w-[488px]">
                       Aplicativo de monitoramento ambiental ganha
                       <br /> destaque, incentivando práticas ecológicas e
                       promovendo a conscientização.
