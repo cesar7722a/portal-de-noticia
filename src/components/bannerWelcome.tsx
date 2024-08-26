@@ -1,4 +1,3 @@
-import { Text } from "./Text";
 import { TitleArtigo } from "./titleArtigo";
 
 export function BannerWelcome() {
@@ -11,14 +10,9 @@ export function BannerWelcome() {
         >
           <div className="md:px-6 md:pb-6 md:pt-[72px] px-4 pt-8 pb-4 flex flex-col gap-2">
             <TitleArtigo>Robótica</TitleArtigo>
-            <p className="font-extrabold text-2xl truncate w-[398px] md:w-full">
-              Robôs domésticos
-              <br className="flex md:hidden" /> começam a ser
-              <br className="flex md:hidden" /> adotados
-              <br className="hidden md:flex" /> para tarefas diárias, prometendo
-              mais
-              <br className="hidden md:flex" /> conforto e eficiência nas
-              residências.
+            <p className="font-extrabold text-2xl line-clamp-3 w-[398px] md:w-full">
+              Robôs domésticos começam a ser adotados para tarefas diárias,
+              prometendo mais conforto e eficiência nas residências.
             </p>
           </div>
         </div>
@@ -29,42 +23,37 @@ export function BannerWelcome() {
           >
             <div className="space-y-2">
               <TitleArtigo>Hologramas</TitleArtigo>
-              <p className="font-extrabold text-sm md:w-[264px]">
-                Novo Smartphone Projetor 3D chega ao
-                <br /> mercado, transformando a forma como
-                <br /> vemos nossas telas!
+              <p className="font-extrabold text-sm md:w-[264px] line-clamp-3">
+                Novo Smartphone Projetor 3D chega ao mercado, transformando a
+                forma como vemos nossas telas!
               </p>
             </div>
           </div>
           <div className="bg-[url('../public/image03.png')] md:w-[288px] h-[200px] bg-cover bg-center px-3 pb-3 pt-9 flex items-end rounded md:rounded-none">
             <div className="space-y-2">
               <TitleArtigo>Internet</TitleArtigo>
-              <Text>
-                Tecnologia 6G chega às metrópoles <br className=" md:flex" />{" "}
-                brasileiras, prometendo revolucionar
-                <br className=" md:flex" /> a forma como vivemos e nos
-                comunicamos.
-              </Text>
+              <p className="font-extrabold text-sm line-clamp-3">
+                Tecnologia 6G chega às metrópoles brasileiras, prometendo
+                revolucionar a forma como vivemos e nos comunicamos.
+              </p>
             </div>
           </div>
           <div className="bg-[url('../public/image04.png')] md:w-[288px] h-[200px] bg-cover bg-center px-3 pb-3 pt-9 flex items-end rounded md:rounded-none">
             <div className="space-y-2">
               <TitleArtigo>Vestíveis</TitleArtigo>
-              <Text>
-                Empresa lança relógio inteligente
-                <br /> capaz de monitorar a saúde mental,
-                <br /> oferecendo insights valiosos para o bem-estar pessoal.
-              </Text>
+              <p className="font-extrabold text-sm line-clamp-3">
+                Empresa lança relógio inteligente capaz de monitorar a saúde
+                mental, oferecendo insights valiosos para o bem-estar pessoal.
+              </p>
             </div>
           </div>
           <div className="bg-[url('../public/image05.png')] md:w-[288px] h-[200px] bg-cover bg-center px-3 pb-3 pt-9 flex items-end rounded md:rounded-none">
             <div className="space-y-2">
               <TitleArtigo>Realidade Virtua</TitleArtigo>
-              <Text>
-                Escolas adotam a tecnologia VR para <br />
-                proporcionar experiências imersivas,
-                <br /> transformando a aprendizagem tradicional.
-              </Text>
+              <p className="font-extrabold text-sm line-clamp-3">
+                Escolas adotam a tecnologia VR para proporcionar experiências
+                imersivas, transformando a aprendizagem tradicional.
+              </p>
             </div>
           </div>
         </div>

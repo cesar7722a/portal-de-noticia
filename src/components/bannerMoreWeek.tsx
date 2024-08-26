@@ -1,6 +1,5 @@
 import { ArrowRight } from "lucide-react";
 import { Separator } from "./separator";
-import { Text } from "./Text";
 
 export function BannerMoreWeek() {
   return (
@@ -17,40 +16,33 @@ export function BannerMoreWeek() {
         </div>
       </div>
       <div className="flex gap-4 flex-col md:flex-row">
-        <div className="md:w-[292px] space-y-2 rounded md:rounded-none">
+        <div className="md:w-[392px] space-y-2 rounded md:rounded-none">
           <div className="bg-[url('../public/image06.png')] bg-center bg-cover h-40"></div>
-          <Text>
-            Protótipo de veículo voador é<br /> apresentado, marcando o início
-            da
-            <br />
-            era dos transportes aéreos pessoais.
-          </Text>
+          <p className="font-bold line-clamp-3">
+            Protótipo de veículo voador é apresentado, marcando o início da era
+            dos transportes aéreos pessoais.
+          </p>
         </div>
         <div className="md:w-[392px] space-y-2">
           <div className="bg-[url('../public/image07.png')] bg-center bg-cover h-40"></div>
-          <Text>
-            Plataforma de videoconferência
-            <br /> apresenta nova função de
-            <br /> hologramas, tornando as chamadas virtuais mais realistas e
-            envolventes.
-          </Text>
+          <p className="font-bold line-clamp-3">
+            Plataforma de videoconferência apresenta nova função de hologramas,
+            tornando as chamadas virtuais mais realistas e envolventes.
+          </p>
         </div>
         <div className="md:w-[392px] space-y-2">
           <div className="bg-[url('../public/image08.png')] bg-center bg-cover h-40"></div>
-          <Text>
-            Nova geração de consoles de
-            <br /> videogame é lançada, trazendo
-            <br /> gráficos ultra-realistas e experiências de jogo totalmente
-            envolventes.
-          </Text>
+          <p className="font-bold line-clamp-3">
+            Nova geração de consoles de videogame é lançada, trazendo gráficos
+            ultra-realistas e experiências de jogo totalmente envolventes.
+          </p>
         </div>
         <div className="md:w-[392px] space-y-2">
           <div className="bg-[url('../public/image09.png')] bg-center bg-cover h-40"></div>
-          <Text>
-            Projeto busca oferecer internet
-            <br /> de alta velocidade em áreas remotas
-            <br /> através de satélites.
-          </Text>
+          <p className="font-bold line-clamp-3">
+            Projeto busca oferecer internet de alta velocidade em áreas remotas
+            através de satélites.
+          </p>
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@ import { ContainerDesta } from "./containerDesta";
 
 export function BannerMoreWeekLeft() {
   return (
-    <div className="space-y-6 md:w-[696px]">
+    <div className="space-y-6 md:w-[680px]">
       <div>
         <Separator />
         <div className="flex justify-between py-2">
