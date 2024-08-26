@@ -9,7 +9,7 @@ import { Separator } from "./separator";
 import { TitleArtigo } from "./titleArtigo";
 export function BannerMoreRight() {
   return (
-    <div className="space-y-8">
+    <div className="space-y-8 md:w-[560px]">
       <figure className="">
         <img
           src={Ads}

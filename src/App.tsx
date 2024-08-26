@@ -11,7 +11,7 @@ export function App() {
       <main className="md:px-8 md:space-y-20 p-4 space-y-8">
         <BannerWelcome />
         <BannerMoreWeek />
-        <div className="flex flex-col md:flex-row gap-8 justify-center">
+        <div className="flex flex-col md:flex-row gap-8 justify-between">
           <BannerMoreWeekLeft />
           <BannerMoreRight />
         </div>
